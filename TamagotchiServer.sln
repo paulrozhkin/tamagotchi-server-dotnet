@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TamagotchiServer", "TamagotchiServer\TamagotchiServer.csproj", "{DC109E20-5965-4D9B-9986-03D9D6B5EC80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TamagotchiServer", "src\TamagotchiServer\TamagotchiServer.csproj", "{DC109E20-5965-4D9B-9986-03D9D6B5EC80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E6D33DF4-850A-4F91-B56B-516FAC38C6D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,8 @@ Global
 		{DC109E20-5965-4D9B-9986-03D9D6B5EC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC109E20-5965-4D9B-9986-03D9D6B5EC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC109E20-5965-4D9B-9986-03D9D6B5EC80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC109E20-5965-4D9B-9986-03D9D6B5EC80} = {E6D33DF4-850A-4F91-B56B-516FAC38C6D7}
 	EndGlobalSection
 EndGlobal
